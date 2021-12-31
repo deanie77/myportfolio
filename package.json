@@ -1,6 +1,11 @@
 {
   "name": "myportfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "^16.13.1",
+    "npm": "^8.1.2",
+    "yarn": "^1.22.17"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -14,7 +19,7 @@
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.0",
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.2"
   },
