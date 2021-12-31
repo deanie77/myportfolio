@@ -1,0 +1,25 @@
+import './menu.scss'
+
+export default function Menu({ menuOpen, yesMenuOpen }) {
+    return (
+        <div className={'menu ' + (menuOpen && 'active')}>
+            <ul>
+                <li onClick={()=>yesMenuOpen(false)}>
+                    <a href="#intro">Home</a>
+                </li>
+                <li onClick={()=>yesMenuOpen(false)}>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li onClick={()=>yesMenuOpen(false)}>
+                    <a href="#works">Works</a>
+                </li >
+                <li onClick={()=>yesMenuOpen(false)}>
+                    <a href="#testimonials">Testimonials</a>
+                </li>
+                <li onClick={()=>yesMenuOpen(false)}>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>            
+        </div>
+    )
+}
